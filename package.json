@@ -1,0 +1,23 @@
+{
+  "name": "bask-crypt",
+  "version": "1.0.0",
+  "description": "A minimalist crypto tracking web-app that enables the user to bundle their favorite cryptos into shareable baskets for analysis and progress tracking.",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "nodemon server.mjs",
+    "start:prod": "NODE_ENV=production nodemon server.mjs"
+  },
+  "keywords": [],
+  "author": "Amrit Borah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^5.13.15"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "eslint": "^8.32.0",
+    "morgan": "^1.10.0",
+    "prettier": "^2.8.3"
+  }
+}
